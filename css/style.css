@@ -96,7 +96,7 @@ header.sticky{
 }
 
 .btn {
-    background-color: var(--green);
+    background-color: var(--orange);
     color: var(--white);
     font-family: var(--text-color);
     font-size: var(--text-color);
@@ -127,7 +127,7 @@ header.sticky{
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: lightblue;
+    background-color: #d5d5d5;
     min-width: 160px;
     border-radius: 10px;
     z-index: 1;
@@ -173,6 +173,7 @@ section {
 .home-text h1 {
     font-size: var(--big-font);
     margin: 30px 0 15px;
+    color: rgb(56, 53, 53);
     /* margin-top: 20px; */
 
 }
@@ -216,9 +217,9 @@ section {
 }
 
 
-.diff {
+/* .diff {
     color: var(--orange);
-}
+} */
 /* --------test--- */
 .ccourse span{
     margin-left: 10px;
@@ -242,7 +243,7 @@ section {
     width: 200px;
     height: 60px;
     color: #fff;
-    background: var(--green);
+    background: var(--orange);
     font-size: 18px;
     text-decoration: none;
     margin: 50px;
