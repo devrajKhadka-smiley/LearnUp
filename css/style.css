@@ -1,0 +1,9 @@
+:root{
+    --orange: #ff5001;
+    --white: #efefef;
+    --grey: #646368;
+    --black: #231f20;
+    --cream: #b3aea8;
+/* to use var(--blue); */
+}
+
