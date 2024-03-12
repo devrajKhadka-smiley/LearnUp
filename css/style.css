@@ -809,6 +809,7 @@ input[type="radio"] {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 2rem;
+    margin-bottom: 35px;
 }
 
 .boxes {
@@ -861,8 +862,8 @@ input[type="radio"] {
 }
 
 
-/* footer-- */
-.footer_upper {
+/* footer--
+.footer_main {
     background-repeat: no-repeat;
     background-color: rgb(92, 89, 89);
     color: var(--grey);
@@ -895,11 +896,10 @@ input[type="radio"] {
 .footer_list-title {
     color: var(--white);
     font-family: 'roboto', sans-serif;
-    /* Make sure to import Roboto font */
+    /* Make sure to import Roboto font 
     font-size: 2.3rem;
     font-weight: 600;
     margin-bottom: 10px;
-    /* Corrected property name */
 }
 
 .footer_list .footer_link {
@@ -915,14 +915,72 @@ input[type="radio"] {
     padding: 12px;
     border-radius: 5px;
     margin-bottom: 20px;
-    /* Corrected property name */
+    Corrected property name 
 }
 
 .newsletter_form .btn {
     min-width: 100%;
     justify-content: center;
+} */
+
+/* footer part */
+footer {
+    padding: 40px 160px;
+    background: #f0f0f0;
+    display: flex;
+    /* flex-direction: wrap; */
+    justify-content: space-around;
 }
 
+footer .col {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: center;
+}
+
+.col-1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    align-items: start;
+    padding: 0 10px;
+}
+
+footer p {
+    font-size: 14px;
+    margin: 0 0 8px;
+}
+
+footer a {
+    font: size 14px;
+    color: #222;
+    margin: 3px;
+}
+
+footer a:hover {
+    color: blue;
+    text-decoration: #00B4CC;
+}
+
+.social_icons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.social_icons a{
+    margin-top: -10px;
+    text-decoration: none;
+    font-size: 30px;
+    margin-right:15px;
+    color:#000000 ;
+    display: inline-block;
+    transition: transform 0.5s;
+    cursor: pointer;
+    transition-property: transform;
+    transition-duration: 0.3s;
+}
 
 /* --back to landing page */
 #top {
@@ -943,4 +1001,37 @@ input[type="radio"] {
 #top:hover {
     opacity: .9;
     transform: translateY(-2px);
+}
+
+.input-field {
+    width: 230px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px groove rgb(200, 200, 200);
+    margin: 10px 0;
+}
+
+.input-field:focus {
+    border: 1px groove rgb(0, 0, 0);
+    outline: none;
+}
+
+.subscribe-btn{
+    display: flex;
+    /* justify-content: center; */
+    padding: 7px 25px;
+    background-color: var(--orange);
+    border: none;
+    color: var(--white);
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.34s ease-out;
+    margin-top: 4px;
+}
+
+.subscribe-btn:hover{
+    /* background-color: rgb(255, 113, 62); */
+    background-color: var(--black);
 }
