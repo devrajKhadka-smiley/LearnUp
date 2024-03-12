@@ -162,7 +162,7 @@ section {
     position: relative;
     height: 100vh;
     width: 100%;
-    background: url(../images/bg1.png);
+    background: url(../images/bg.png);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -335,7 +335,7 @@ section {
 
 /* -----------about- */
 .about {
-    background: url(/images/bg1.png);
+    background: url(/images/bg.png);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -605,7 +605,7 @@ section {
 
 /* moreabout--- */
 .moreabout {
-    background: url(/images/bg1.png);
+    background: url(/images/bg.png);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -740,18 +740,8 @@ input[type="radio"]{
     background: var(--orange);
 }
 
-/* video---- */
-/* .video {
-    position: relative;
-    display: flex;
-    width: 100%;
-    padding-bottom: 56%;
-    justify-content: center;
-    align-items: center;
-} */
-
 .video{
-    background: url(/images/bg1.png);
+    background: url(/images/bg.png);
     background-size: cover;
     background-position: center;
     align-items: center;
