@@ -335,7 +335,7 @@ section {
 
 /* -----------about- */
 .about {
-    background: url(/images/bg.png);
+    background: url(../images/bg.png);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -605,7 +605,7 @@ section {
 
 /* moreabout--- */
 .moreabout {
-    background: url(/images/bg.png);
+    background: url(../images/bg.png);
     background-size: cover;
     background-position: center;
     display: grid;
@@ -650,7 +650,8 @@ section {
     box-shadow: 6px 6px 10px -1px rgba(0, 0, 0, 0.15),
         -6px -6px 10px -1px rgba(255, 255, 255, 0.7);
 }
-.accordian li label{
+
+.accordian li label {
     display: flex;
     align-items: center;
     padding: 10px;
@@ -659,17 +660,18 @@ section {
     cursor: pointer;
 }
 
-label::before{
+label::before {
     content: '+';
     margin-right: 10px;
     font-size: 24px;
     font-weight: 600;
 }
-input[type="radio"]{
+
+input[type="radio"] {
     display: none;
 }
 
-.accordian .content{
+.accordian .content {
     color: #555;
     padding: 0 10px;
     line-height: 26px;
@@ -677,7 +679,8 @@ input[type="radio"]{
     overflow: hidden;
     transition: max-height 0.5s, padding 0.5s;
 }
-.accordian input[type="radio"]:checked + label + .content{
+
+.accordian input[type="radio"]:checked+label+.content {
     max-height: 400px;
     padding: 10px 10px 20px;
 }
@@ -694,7 +697,8 @@ input[type="radio"]{
 .client_item {
     background-color: white;
     padding: 30px;
-    border-radius: 10px; /* Adjusted border radius */
+    border-radius: 10px;
+    /* Adjusted border radius */
     color: red;
 }
 
@@ -728,35 +732,38 @@ input[type="radio"]{
     color: grey;
 }
 
-.client_review .swiper-pagination{
+.client_review .swiper-pagination {
     position: relative;
     margin-top: 40px;
     bottom: auto;
 }
 
-.client_review .swiper-pagination-bullet{
+.client_review .swiper-pagination-bullet {
     height: 12px;
     width: 12px;
     background: var(--orange);
 }
 
-.video{
-    background: url(/images/bg.png);
+.video {
+    background: url(../images/bg.png);
     background-size: cover;
     background-position: center;
     align-items: center;
     margin-top: -70px;
 }
+
 .videocontainer {
-position: relative;
-width: 100%;
-padding-bottom: 57%;
-margin-top: -90px;
-height: 0;
-align-items: center;
+    position: relative;
+    width: 100%;
+    padding-bottom: 57%;
+    margin-top: -90px;
+    height: 0; 
+    align-items: center;
+    margin-left: 40px;
+
 }
 
-.videocontainer iframe{
+.videocontainer iframe {
     align-items: center;
     position: absolute;
     margin-top: 90px;
@@ -783,13 +790,13 @@ align-items: center;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     margin-right: 20px;
-    width: 180px; 
-    height: 150px; 
-    object-fit: cover; 
+    width: 180px;
+    height: 150px;
+    object-fit: cover;
     transition: all .40s ease-in-out;
 }
 
-.video_pic img:hover{
+.video_pic img:hover {
     transform: translateY(-7px);
 }
 
@@ -857,13 +864,14 @@ align-items: center;
 /* footer-- */
 .footer_upper {
     background-repeat: no-repeat;
-    background-color: rgb(192, 187, 187);
+    background-color: rgb(92, 89, 89);
     color: var(--grey);
     font-size: 1.5rem;
 }
 
-.footer_brand-text { 
-    margin-block: 20px; 
+.footer-brand-text {
+    margin-block: 20px;
+    color: var(--white);
 }
 
 .footer_brand .wrapper {
@@ -871,40 +879,43 @@ align-items: center;
     gap: 5px;
 }
 
-.footer_brand .wrapper .span { 
-    font-weight: 500; 
+.footer_brand .wrapper .span {
+    font-weight: 500;
 }
 
-.footer_link { 
-    transition: 0.25s ease; 
+.footer_link {
+    transition: 0.25s ease;
 }
 
-.footer_link:hover, 
-.footer_link:focus { 
-    color: hsl(170, 75%, 41%); 
+.footer_link:hover,
+.footer_link:focus {
+    color: hsl(170, 75%, 41%);
 }
 
 .footer_list-title {
     color: var(--white);
-    font-family: 'roboto', sans-serif; /* Make sure to import Roboto font */
+    font-family: 'roboto', sans-serif;
+    /* Make sure to import Roboto font */
     font-size: 2.3rem;
     font-weight: 600;
-    margin-bottom: 10px; /* Corrected property name */
+    margin-bottom: 10px;
+    /* Corrected property name */
 }
 
-.footer_list .footer_link { 
-    padding-block: 5px; 
+.footer_list .footer_link {
+    padding-block: 5px;
 }
 
-.newsletter_form { 
-    margin-block: 20px 35px; 
+.newsletter_form {
+    margin-block: 20px 35px;
 }
 
 .newsletter_form .input-field {
     background-color: var(--white);
     padding: 12px;
     border-radius: 5px;
-    margin-bottom: 20px; /* Corrected property name */
+    margin-bottom: 20px;
+    /* Corrected property name */
 }
 
 .newsletter_form .btn {
